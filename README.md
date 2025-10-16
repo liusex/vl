@@ -1,9 +1,17 @@
 同步前一定先要断开CF，否则要死。
 因为worker.js要混淆才行，否则封账号。
 部署到pagers不要在workers，否则域名添加不进去。
+部署的时候在github手动下载zip,然后上传到pagers，自动抓取的也不得行。
+混淆网站
+https://obfuscator.io/
 
-
-
+设置如下
+options Preset = High
+Self Defending = no
+Debug Protection = no
+String Array Wrappers Count =2
+String Array Wrappers Parameters Maximum Count = 2
+Identifier Names Generator = Mangled-shuffled
 
 
 
