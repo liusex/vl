@@ -1,5 +1,11 @@
 同步前一定先要断开CF，否则要死。
 因为worker.js要混淆才行，否则封账号。
+部署到pagers不要在workers，否则域名添加不进去。
+
+
+
+
+
 
 
 # 🚀 edgetunnel
